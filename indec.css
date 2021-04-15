@@ -1,0 +1,36 @@
+* {
+    font-family: sans-serif;
+}
+.nav-left span {
+    color: #4E77FF;
+}
+.navbar h2 {
+    color: #151515;
+    font-weight: 900;
+}
+.nav-link {
+    color: #151515;
+    height: 0px;
+}
+.nav-right button {
+    color: #151515
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.wrap-left h1 {
+    color: #4E77FF;
+    font-weight: 800;
+}
+.wrap-left span {
+    font-weight: 600;
+    font-size: 25px;
+}
+.wrap-left button {
+    border: 2px solid #4E77FF;
+}
+@media (min-width: 1024px) {
+    .nav-right button {
+        width: 200px
+    }
+}
