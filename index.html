@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./indec.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <title>RabbitHosting</title>
 </head>
 
@@ -20,9 +20,22 @@
             </div>
         </div>
         <div class="nav-right mx-auto pt-4">
-            <a href="" class="nav-link px-4 py-2 rounded text-white">Home</a>
+            <a href="" class="nav-link px-4 py-2 rounded">Home</a>
             <div class="dropdown inline-block relative">
-                <button class=" py-2 px-4 text-center rounded inline-flex items-center">
+                <button class=" py-2 pl-2 text-center rounded inline-flex items-center login">
+                    <span class="mr-1">Login</span>
+                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                        <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /> </svg>
+                </button>
+                <ul class="dropdown-menu absolute hidden text-gray-700 pt-1">
+                    <li class=""><a class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                            href="#">Control Panel</a></li>
+                    <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                            href="#">Client Arena</a></li>
+                </ul>
+            </div>
+            <div class="dropdown inline-block relative">
+                <button class=" py-2 px-4 text-center rounded inline-flex items-center hosting">
                     <span class="mr-1">Hosting</span>
                     <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                         <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /> </svg>
@@ -42,7 +55,7 @@
             </div>
         </div>
     </div>
-    <div class="container px-6 md:px-12 lg:px-24">
+    <div class="container px-6 md:px-12 lg:px-24 mx-auto">
         <div class="top-wrap flex flex-col mt-8 lg:flex-row lg:justify-between">
             <div class="wrap-left text-center lg:w-1/2 lg:text-left lg:mt-40 lg:px-20">
                 <h1 class="text-6xl py-2">Welcome</h1>
@@ -53,6 +66,31 @@
                 <img class="lg" src="./top-place.jpg" alt="">
             </div>
         </div>
+        <div class="features mt-20 lg:mt-64">
+            <div class="feat-top">
+                <h1 class="text-5xl text-center">Features</h1>
+            </div>
+            <div class="feat-boxes flex flex-wrap my-10 lg:justify-around">
+                <div class="feat-box w-full mx-16 py-2 pb-4 rounded lg:w-1/4 lg:mx-0">
+                    <img class="block mx-auto m-4" src="./icons8-webpack-64 1.png" alt="">
+                    <h2 class="text-center text-xl">Instant Setup</h2>
+                    <p class="text-center px-4 py-2">What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s w</p>
+                </div>
+                <div class="feat-box w-full mx-16 py-2 pb-4 rounded lg:w-1/4 lg:mx-0 mt-10">
+                    <img class="block mx-auto m-4" src="./icons8-webpack-64 1.png" alt="">
+                    <h2 class="text-center text-xl">Instant Setup</h2>
+                    <p class="text-center px-4 py-2">What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s w</p>
+                </div>
+                <div class="feat-box w-full mx-16 py-2 pb-4 rounded lg:w-1/4 lg:mx-0 mt-10">
+                    <img class="block mx-auto m-4" src="./icons8-webpack-64 1.png" alt="">
+                    <h2 class="text-center text-xl">Instant Setup</h2>
+                    <p class="text-center px-4 py-2">What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s w</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="helping bg-blue-300">
+
     </div>
 </body>
 
